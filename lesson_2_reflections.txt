@@ -12,3 +12,7 @@ the files in your staging area and working directory
 use gif diff --staged to compare the files in the staging area
 and the repository.
 by doing this you can make sure to commit only one logical change
+
+what are some situations where using branches would be helpful in keeping your history organized? How would branches help?
+1. you try out a new feature but want to have a running model 
+2. you translate your game and want to merge the branches later
