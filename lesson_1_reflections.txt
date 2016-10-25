@@ -1,0 +1,37 @@
+On Unix:
+diff - u old_file new_file
+shows the differences between old_file and new_file
+lines with - in front were removed
+lines with + in front were added
+
+how could a whole history of a file make me a more efficient programmer?
+make new versions for every small change.
+make notes in each version what you changed and why.
+if you notice a problem with some part of the code later,
+you can check what you changed using diff
+
+pros of using Git:
+new commit for every logical change
+having an id for each commit
+give a small comment on what you changed
+
+mutilple-file commits:
+if you have a game which is featured on a website,
+you have mutiple files which are closely related.
+if you add some specific feature, which needs changes
+in all files, it makes sense to use mutiple-file commits.
+
+how do you use git log and git diff to view the history of a file?
+using git log you can see who worked on the repository and when.
+if they commented well you also know what they did.
+you can extract the commit IDs and use git diff to compare the two versions.
+keep in mind that the most recent commit is on top
+
+how can git checkout make you more confident to make changes that could break the code?
+if you break the code you can use git checkout to test which commit introduced the bug.
+then you can use git diff to see what was changed to fix the bug.
+
+What do I want to use Git for?
+It makes sense to use Git for my simulations.
+I could make commits when I change a for loop
+and checkout which commit behaves/behaved correctly.

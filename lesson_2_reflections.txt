@@ -1,0 +1,6 @@
+What happens when you initialize a repository?
+git starts to create hidden files to track the history 
+of the files in the repository.
+
+What is the value of the staging area.
+keep track of files you changed since the last commit.
