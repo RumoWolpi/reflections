@@ -4,3 +4,11 @@ of the files in the repository.
 
 What is the value of the staging area.
 keep track of files you changed since the last commit.
+
+How can you use the staging area to make sure that your commit
+contains only one logical change?
+use git diff without further attributes to compare
+the files in your staging area and working directory
+use gif diff --staged to compare the files in the staging area
+and the repository.
+by doing this you can make sure to commit only one logical change
