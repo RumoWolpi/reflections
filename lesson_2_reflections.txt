@@ -30,3 +30,10 @@ the branches split up. if one of the branches deleted lines,
 they will not be included in the merged commit (they were replaced)
 if new lines are added in each branch, they will be included 
 into the new commit. this works suprisingly well
+
+What are the pros and cons of always automatically merging with git?
+git and easily tell you which parts of the code were changed.
+if similar parts were changed differently, you get a merge conflict.
+you can then look at the problem at hand and solve it manually.
+you might run into problems if git add conflicting codes from 
+two branches without noticing the conflict.
