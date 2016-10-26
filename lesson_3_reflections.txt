@@ -13,3 +13,7 @@ branches are different
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 even if you are offline, you can still look at the differences between master and origin/master. merge them, etc.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+it would be very difficult to see who changed what and when.
+so, it is better to always use github to collaborate
