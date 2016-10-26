@@ -17,3 +17,8 @@ even if you are offline, you can still look at the differences between master an
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 it would be very difficult to see who changed what and when.
 so, it is better to always use github to collaborate
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+espacially, when you want to collaborate, you can not directly
+change the master branch of the remote.
+thus, you make a new branch, push it and make a pull request
