@@ -10,3 +10,6 @@ if it kept up-to-date automatically, you might have to spend time to reverse the
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
 you can use fork directly on GitHub to copy someone else's repository to your site. doing this, everyone can see the original creator of the content. after doing this you can use clone to copy the repository on your site to your computer. 
 branches are different
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+even if you are offline, you can still look at the differences between master and origin/master. merge them, etc.
