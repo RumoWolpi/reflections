@@ -23,3 +23,10 @@ git shows you the branch sructure of your repository.
 this is important, as you need to know where to work on which 
 problem, and to be careful to not go into a headless state
 without using git branch -b new_branch_name
+
+What is the result of merging two branches?
+git compares the tip of the branches with the commit before
+the branches split up. if one of the branches deleted lines,
+they will not be included in the merged commit (they were replaced)
+if new lines are added in each branch, they will be included 
+into the new commit. this works suprisingly well
